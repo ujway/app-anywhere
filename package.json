@@ -1,12 +1,11 @@
 {
-  "name": "next-chrome-starter",
+  "name": "app-anywhere",
   "version": "0.0.1",
   "description": "Next.js Chrome Extension Starter, Demo Example by ibnzUK. https://github.com/ibnzUK/next-chrome-starter",
   "main": "index.js",
   "scripts": {
-    "build": "npm run prep",
-    "prep": "npm run exp && node out.js",
-    "exp": "next build && next export",
+    "build": "npm run export && node out.js",
+    "export": "next build && next export",
     "run": "next start",
     "dev": "next dev"
   },
